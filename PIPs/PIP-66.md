@@ -4,7 +4,7 @@ Title: Allow early block announcements
 Author: Jerry Chen, Manav Darji
 Description: Allow primary block producers to announce block early for better block propagation.
 Discussion: https://forum.polygon.technology/t/pip-66-allow-early-block-announcements-on-pos/20976
-status: Draft
+status: Final
 Type: Core
 Date: 2025-05-21
 ---
