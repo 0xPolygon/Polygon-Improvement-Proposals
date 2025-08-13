@@ -16,7 +16,7 @@ Increase maximum gas from 45M to 60M to provide greater capacity, allowing for m
 As the network continues to increase its usage, the demand for gas will increase, potentially creating a bottleneck for transaction volumes.
 
 By increasing the gas limit by 33%, headroom is created for upcoming work related to validator elected block 
-producer (proposed in https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md) to 
+producer (proposed in [PIP-64](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md)) to 
 accomodate growing demand.
 
 ## Specification
