@@ -42,7 +42,7 @@ This change is non-breaking and backward-compatible.
 ## Security Considerations
 The increased block gas limit may result in larger blocks requiring more time to propagate across the network. Testing will ensure that this change does not significantly increase uncle rates or network desynchronization.
 
-Validators must be capable of handling the updated gas and ensure it does not exceed their CPU, memory, and disk resources.
+Validators should ensure CPU, memory, and disk resources can accomodate the increased gas requirements, though current recommended hardware specifications are expected to comfortably support the proposed increase.
 
 ## Copyright
 
