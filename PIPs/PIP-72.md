@@ -222,6 +222,10 @@ The implementation preserves complete compatibility with existing infrastructure
 
 Node operators have complete flexibility in adopting stateless capabilities. Stateless mode is entirely opt-in through configuration settings, meaning existing full nodes can continue operating without any changes. Full nodes can choose to enable witness generation while maintaining their full state, allowing them to support stateless peers without compromising their own operation. The network supports a mixed environment where full nodes and stateless nodes operate simultaneously, with each type contributing to network health according to their capabilities.
 
+### Validator Limitations
+
+While stateless verification maintains protocol compatibility, validators operating in stateless mode experience certain functional limitations. Most significantly, stateless validators cannot manage transaction mempools since they lack the complete state data required to validate pending transactions. This means stateless validators cannot participate in transaction broadcasting, mempool maintenance, or fee estimation services that rely on comprehensive state access. Validators requiring mempool functionality must continue operating as full nodes to maintain these capabilities.
+
 ### Consensus
 
 The consensus mechanism remains completely unchanged by this proposal. Block validation rules continue to apply identically for all node types, ensuring that stateless nodes reach the exact same validation results as full nodes when processing the same blocks. The proposal introduces no changes to finality mechanisms or fork choice rules, maintaining the network's existing consensus guarantees and security properties.
