@@ -11,11 +11,11 @@ Date: 2025-08-22
 
 ## Abstract
 
-This proposal introduces witness-based stateless verification for the Polygon PoS network, enabling nodes to validate blocks without maintaining the complete blockchain state. By leveraging cryptographic witnesses containing only the necessary state data for block execution, stateless nodes can participate in network validation with significantly reduced storage requirements (approximately 90GB for historical bytecodes and associated trie nodes versus over 1TB for full state in mainnet). This architecture complements the Validator-Elected Block Producer (VEBloP) model outlined in PIP-64, allowing validators to verify high-throughput block production without the computational and storage burden of maintaining full state.
+This proposal introduces witness-based stateless verification for the Polygon network, enabling nodes to validate blocks without maintaining the complete blockchain state. By leveraging cryptographic witnesses containing only the necessary state data for block execution, stateless nodes can participate in network validation with significantly reduced storage requirements (approximately 90GB for historical bytecodes and associated trie nodes versus over 1TB for full state in mainnet). This architecture complements the Validator-Elected Block Producer (VEBloP) model outlined in [PIP-64](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md), allowing validators to verify high-throughput block production without the computational and storage burden of maintaining full state.
 
 ## Motivation
 
-The Polygon PoS state has grown to over 1TB, forcing validators to use high-capacity NVMe SSDs (2TB+) with significant RAM, leading to substantial operational costs and sync times measured in days or weeks for new nodes. As outlined in PIP-64, achieving 10,000+ TPS requires separating block production from validation, but without stateless verification, validators would still need powerful hardware to keep up with unbounded state growth, limiting the benefits of VEBloP. These requirements create significant barriers for smaller validators through high initial hardware investment, ongoing operational costs, and technical complexity of maintaining synchronized state. Stateless verification addresses these challenges by reducing storage requirements to ~90GB while enabling broader network participation and maintaining security guarantees.
+Polygon chain's state has grown to over 1TB, forcing validators to use high-capacity NVMe SSDs (2TB+) with significant RAM, leading to substantial operational costs and sync times measured in days or weeks for new nodes. As outlined in PIP-64, achieving 10,000+ TPS requires separating block production from validation, but without stateless verification, validators would still need powerful hardware to keep up with unbounded state growth, limiting the benefits of VEBloP. These requirements create significant barriers for smaller validators through high initial hardware investment, ongoing operational costs, and technical complexity of maintaining synchronized state. Stateless verification addresses these challenges by reducing storage requirements to ~90GB while enabling broader network participation and maintaining security guarantees.
 
 ## Specification
 
@@ -48,7 +48,7 @@ Witness {
 #### Witness Components
 
 1. **Context Header**: The block being validated, with state root and receipt root for verification
-2. **Historical Headers**: Parent blocks required for BLOCKHASH opcode execution. Before [Pectra hardfork](https://eips.ethereum.org/EIPS/eip-7600), The EVM's BLOCKHASH opcode can access up to 256 previous block hashes. For backward compatibility, witnesses will include headers for any blocks that might be accessed during transaction execution. The parent header is always included to provide the pre-state root for validation.
+2. **Historical Headers**: Parent blocks required for `BLOCKHASH` opcode execution. Before [Pectra hardfork](https://eips.ethereum.org/EIPS/eip-7600), The EVM's `BLOCKHASH` opcode can access up to 256 previous block hashes. For backward compatibility, witnesses will include headers for any blocks that might be accessed during transaction execution. The parent header is always included to provide the pre-state root for validation.
 3. **State Nodes**: Merkle Patricia Trie nodes for accessed accounts and storage slots
 
 Note: Contract bytecodes are not included in witnesses as they are stored locally.
@@ -214,8 +214,6 @@ Despite its advantages, stateless verification comes with certain limitations th
 
 ## Backwards Compatibility
 
-This proposal maintains full backwards compatibility across all operational aspects of the network.
-
 ### Protocol Level
 
 The implementation preserves complete compatibility with existing infrastructure. All current P2P protocols remain unchanged, ensuring that existing node software continues to function without modification. The witness protocol operates as an additive enhancement rather than a replacement for existing protocols, allowing it to coexist with current network communication mechanisms. Full nodes continue operating normally and can participate in the network exactly as they did before, with no required changes to their core functionality.
@@ -254,3 +252,7 @@ Malicious actors might attempt to distribute witnesses containing incorrect stat
 ## References
 
 - [PIP-64: Validator-Elected Block Producer](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md)
+
+## Copyright
+
+All copyrights and related rights in this work are waived under [CCO 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
