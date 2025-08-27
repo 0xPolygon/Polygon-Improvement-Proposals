@@ -138,20 +138,18 @@ This scenario typically occurs when a producer continues their assigned span.
 
 This scenario indicates an expected producer rotation.
 
-1.  **Span Verification:** Bor checks Heimdall for a new span that authorizes the new producer.
-    - If the new span exists, the block is **accepted** as a valid rotation.
-    - If the new span does not exist, the block is **rejected**.
+**Span Verification:** Bor checks Heimdall for a new span that authorizes the new producer.
+  - If the new span exists, the block is **accepted** as a valid rotation.
+  - If the new span does not exist, the block is **rejected**.
 
-2.  **Timeout Protection:** Bor waits a maximum of 4 seconds for the new span to appear. This prevents the node from getting stuck if it receives a block from a malicious producer who is not in the validator set.
 
 ### Timing Parameters
 
-| Parameter               | Value            | Purpose                                                         |
-| ----------------------- | ---------------- | --------------------------------------------------------------- |
-| Base timeout            | 4 seconds        | Base timeout for block propagation                              |
-| Span check interval     | 200 milliseconds | Polling frequency when waiting for span updates                 |
-| Same-producer wait      | 8 seconds        | Maximum wait when expecting possible rotation (2x base timeout) |
-| Different-producer wait | 4 seconds        | Maximum wait to verify producer change (1x base timeout)        |
+| Parameter           | Value            | Purpose                                                         |
+| ------------------- | ---------------- | --------------------------------------------------------------- |
+| Base timeout        | 4 seconds        | Base timeout for block propagation                              |
+| Span check interval | 200 milliseconds | Polling frequency when waiting for span updates                 |
+| Same-producer wait  | 8 seconds        | Maximum wait when expecting possible rotation (2x base timeout) |
 
 
 ### Forced Transactions
