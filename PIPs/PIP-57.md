@@ -4,7 +4,7 @@ Title: Add migrateTo() in the POL Migration Contract
 Author: Simon Dosch
 Description: Adds a migrateTo function in the POL migration contract
 Discussion: https://forum.polygon.technology/t/pip-57-add-migrateto-in-the-pol-migration-contract/20582
-status: Peer Review
+status: Last Call
 Type: Core
 Date: 2025-01-16
 ---
