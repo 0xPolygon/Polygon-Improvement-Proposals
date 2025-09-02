@@ -36,7 +36,7 @@ The updated membership list also proposes replacing two (2) individual represent
 * Polygon Labs Security will ensure operational integrity throughout the upgrade process by verifying payloads through to execution.
 
 ## Specification  
-This PIP proposes the reform of the signer composition of the Protocol Council, to be updated to the the list below. The existing multisig contract specification, including signature policies and timelock delays, will remain unchanged. 
+This PIP proposes the reform of the signer composition of the Protocol Council, to be updated to the list below. The existing multisig contract specification, including signature policies and timelock delays, will remain unchanged. 
 
 **Updated Protocol Council Members**
 
