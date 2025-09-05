@@ -19,7 +19,7 @@ This PIP specifies the changes included in the Polygon PoS hard fork named Rio.
 ## Activation
 
 - Activation block:
-  * For Amoy - `26201856`
+  * For Amoy - `26272256`
   * For Mainnet - `TBC`
 
 ## Included PIPs
