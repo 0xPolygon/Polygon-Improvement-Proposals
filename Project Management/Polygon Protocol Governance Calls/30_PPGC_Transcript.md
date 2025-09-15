@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call - 2025/02/13 15:54 GMT - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Ben Rodriguez, Christopher Von Hessert, Dimitri Nikolaros, Fireflies.ai Notetaker Bruno, Harry Rook, Harry Rook's Presentation, Jerome de Tychey, Jerry Chen, Justin Havins, KP, Liminal Notetaker, Marcello Ardizzone, Mark Holt, Mena's Notetaker, Michel Muniz, Nikhil Chaturvedi, Raneet Debnath, Sandeep Sreenath, Sanket Saagar Karan, stream, Traversi Normandi, Vincent Taglia, WebDev StakeWorks
