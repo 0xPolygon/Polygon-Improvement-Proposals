@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call (2023-05-18 15:59 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Alex PFL, Antony Halim, Bojana Tomic, Dan Moore, Dimitri Nikolaros, Fireflies.ai Notetaker Michel, George Serntedakis, Guillaume Dechaux, Harry Rook, Jackson Lewis, Jason Windawi, John Hilliard, Krishna Upadhyaya, Manav Darji, Manav Darji's Presentation, Mateusz Rzeszowski, Michel Muniz, Mohak Agarwal, Nimit Bavishi, Paul O'Leary, Pratik Patil, Pratik Patil's Presentation, Scott Lilliston, Vedant Patel, Vince Reed, Yuling Ma
