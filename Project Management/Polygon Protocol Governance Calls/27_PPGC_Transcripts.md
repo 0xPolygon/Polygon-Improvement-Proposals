@@ -1,4 +1,5 @@
-# Polygon Protocol Governance Call - 2024/11/21 15:51 GMT - Transcript
+# Polygon Protocol Governance Call: Transcript
+
 ###Attendees
 Angel Valkov, Anton Gaev, Ben Rodriguez, Christopher Von Hessert, Dimitri Nikolaros, Fireflies.ai Notetaker Bruno, Fireflies.ai Notetaker Nikhil, Fireflies.ai Notetaker Parth, Harry Rook, Joonkyo Kim, Konstantin Ivanov, Liminal Notetaker, Manav Darji, Manav Darji's Presentation, Marcello Ardizzone, Marcello Ardizzone's Presentation, Mark Holt, Mark Holt's Presentation, Mateusz Rzeszowski, Mateusz Rzeszowski's Presentation, Michel Muniz, Mihailo Bjelic, Nikhil Chaturvedi, Parvez Shaikh, Pratik Sanjay Patil, Raneet Debnath, Raneet Debnath's Presentation, Sajal Agrawal, Sandeep Sreenath, Sanket Saagar Karan, staking 4all, Stream, Tiago - Stakin, Tobias Geiger, WebDev StakeWorks
 
