@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call - 2025/04/03 15:50 BST - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 
