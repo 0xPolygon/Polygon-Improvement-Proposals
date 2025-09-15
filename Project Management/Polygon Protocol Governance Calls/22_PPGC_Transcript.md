@@ -1,4 +1,5 @@
-# Polygon Protocol Governance Call (2024-06-27 16:06 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
+
 ### Attendees
 
 Ben Rodriguez, Brian Seong, Can, Chase Mitchell, David Silverman, David Silverman's Presentation, Dhairya Sethi, Dimitri Nikolaros, Fireflies.ai Notetaker Can, Fireflies.ai Notetaker Parth, Harry Rook, Harry Rook's Presentation, Liminal Notetaker, Marcello Ardizzone, Mark Holt, Michel Muniz, Milen Filatov, Mirella Guglielmi, Nimit Bavishi, Parvez Shaikh, Paul O'Leary, Sajal Agrawal, Sandeep Sreenath, Scott Lilliston, Stream, Tiago - Stakin, Tobias Geiger, Vasanti Rode, WebDev StakeWorks

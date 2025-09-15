@@ -1,4 +1,5 @@
-# Polygon Protocol Governance Call – 2024/10/24 15:51 BST – Transcript
+# Polygon Protocol Governance Call: Transcript
+
 ### Attendees
 
 Alex Watts, Ayush Bhadauria, Ben Rodriguez, Carlos Juarez, Christopher Von Hessert, Dan Moore, Dimitri Nikolaros, Fireflies.ai Notetaker Bruno, Fireflies.ai Notetaker Nikhil, Harry Rook, Harry Rook's Presentation, Jerome de Tychey, Jerry Chen, Joonkyo Kim, Jumanzi's Notetaker, Krzysztof Urbański, Léo Vincent, Liminal Notetaker, Mark Holt, Michael Mugno, Michel Muniz, Nikhil Chaturvedi, Parvez Shaikh, Poorthi Hesaru, Quentin de Beauchesne, Sajal Agrawal, stream, Vasanti Rode, Victor Castell, Vincent Taglia, WebDev StakeWorks

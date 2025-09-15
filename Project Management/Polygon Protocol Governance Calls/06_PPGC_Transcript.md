@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2023-08-10 16:06 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Cameron Morris, David Silverman, Dimitri Nikolaros, Fireflies.ai Notetaker Hyung-K, George Serntedakis, Harry Rook, Jackson Lewis, Jason Windawi, Jerry Chen, Jerry Chen's Presentation, Joonkyo Kim, Keefer Taylor, Lyes Lefgoum, Matt Nathanson, Michel Muniz, Mike Brucken, Mirella Guglielmi, Nimit Bavishi, Paul O'Leary, Pratik Patil, Pratik Patil's Presentation, Quentin de Beauchesne, Sandeep Sreenath, Scott Lilliston, staking 4all, Tobias Geiger, Vaibhav Jindal, Vincent Taglia, WebDev StakeWorks, Yuling Ma

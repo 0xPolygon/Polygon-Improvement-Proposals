@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call – 2024/09/26 15:37 BST – Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 

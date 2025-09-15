@@ -1,4 +1,5 @@
-# Polygon Protocol Governance Call - 2025/01/16 15:52 GMT - Transcript
+# Polygon Protocol Governance Call: Transcript
+
 ### Attendees
 Andries Jansen, Angel Valkov, Ben Rodriguez, Christopher Von Hessert, Dimitri Nikolaros, Fireflies.ai Notetaker Bruno, Harry Rook, Harry Rook's Presentation, Joonkyo Kim, Liminal Notetaker, Marcello Ardizzone, Mateusz Rzeszowski, Michel Muniz, Nikhil Chaturvedi, Parvez Shaikh, Raneet Debnath, Sajal Agrawal, Sanket Saagar Karan, Simon Dosch, stream, Traversi Normandi, Vasanti Rode, WebDev StakeWorks
 

@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2023-04-20 16:04 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Alex PFL, Bella Park, Bojana Tomic, Fireflies.ai Notetaker Michel, George Serntedakis, Harry Rook, Harry Rook's Presentation, Jackson Lewis, Jessie Park, Krishna Upadhyaya, Kwangsung Park, Manav Darji, Mateusz Rzeszowski, Meeting Note Taker, Michel Muniz, Mihailo Bjelic, Nimit Bavishi, Paul O'Leary, Peter Stewart, Pratik Patil, Pratik Patil's Presentation, Sandeep Sreenath, Sergey Bachurin, staking 4all, sw's Otter.ai, Tanisha Katara, Vaibhav Jindal, Vaibhav Jindal's Presentation, Vedant Patel, Volodymyr Hnativ, Yuling Ma

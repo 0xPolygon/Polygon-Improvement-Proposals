@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2023-09-07 16:03 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Alexandru Minulescu, Derek Meyer, Fireflies.ai Notetaker Parth, Flavian Manea, George Serntedakis, Harry Rook, Kehinde Yusuf, Michel Muniz, Mohak Agarwal, Paul O'Leary, Quentin de Beauchesne, Sandeep Sreenath, Scott Lilliston, Vincent Taglia, Yuling Ma

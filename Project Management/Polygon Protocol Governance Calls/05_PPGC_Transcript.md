@@ -1,5 +1,4 @@
-# Polygon Protocol Governance Call (2023-07-13 16:01 GMT+1) - Transcript
-
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees: 
 Alex PFL, Bella Park, Cameron Morris, David Silverman, elouan le grand, Fireflies.ai Notetaker Hyung-K, George Serntedakis, Harry Rook, Harry Rook's Presentation, Jackson Lewis, James Patry-Dodd, John Broadley, Joonkyo Kim, Kasper van der Valk, Lyes Lefgoum, Michael Mugno, Michel Muniz, Mirella Guglielmi, Nimit Bavishi, Pratik Patil, Quentin de Beauchesne, Sandeep Sreenath, Sandeep Sreenath's Presentation, Tanisha Katara, Tiago - Stakin, Tobias Geiger, Tom Murphy, Vaibhav Jindal, Vaibhav Jindal's Presentation, Vedant Patel, WebDev StakeWorks

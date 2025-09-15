@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2024-02-08 16:06 GMT) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 

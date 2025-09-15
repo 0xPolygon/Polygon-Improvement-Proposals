@@ -1,5 +1,4 @@
-# Polygon Protocol Governance Call (2023-06-15 16:01 GMT+1) - Transcript
-
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 0x2, Alex PFL, Ben Sparks, Dimitri Nikolaros, Ely x0, Fireflies.ai Notetaker Luther, George Serntedakis, Harry Rook, Jackson Lewis, Jason Windawi, Jeremy Feral, Jerry Chen, Kasper van der Valk, Manav Darji, Manav Darji's Presentation, Mateusz Rzeszowski, Michael Mugno, Michel Muniz, Mihailo Bjelic, Nimit Bavishi, Paul O'Leary, Pratik Patil, Raneet Debnath, Sahil Kamra, Sandeep Sreenath, Sandeep Sreenath's Presentation, staking 4all, Tanisha Katara, Tom Murphy, Vedant Patel, WebDev StakeWorks
