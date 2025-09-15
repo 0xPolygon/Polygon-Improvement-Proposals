@@ -1,6 +1,6 @@
-## Polygon Protocol Governance Call (2023-10-05 16:05 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
-### Attendees
+#### Attendees
 +1 514-***-**66, Alex PFL, antony h, Daniel Gretzke, David Silverman, David Silverman's Presentation, Derek Meyer, Dimitri Nikolaros, Eddie B, George Serntedakis, Harry Rook, Jackson Lewis, Jason Windawi, Joonkyo Kim, Justice Conder, Krzysztof Urbański, Mateusz Rzeszowski, Matt Nathanson, Michel Muniz, Mike Brucken, Mirella Guglielmi, Parvez Shaikh, Paul Gebheim, Peter A, Pratik Patil, Pratik Patil's Presentation, Quentin de Beauchesne, Sandeep Sreenath, Scott Lilliston, Tiago - Stakin, Vincent Taglia, WebDev StakeWorks
 
 # Transcript
