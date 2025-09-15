@@ -1,6 +1,6 @@
-## Polygon Protocol Governance Call (2023-10-19 16:03 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
-### Attendees
+#### Attendees
 Daniel Gretzke, David Silverman, Derek Meyer, Dimitri Nikolaros, Flavian Manea, George Serntedakis, Harry Rook, Jackson Lewis, Joonkyo Kim, Justice Conder, Marcello Ardizzone, Marcello Ardizzone's Presentation, Mariano Conti, Mateusz Rzeszowski, Mateusz Rzeszowski's Presentation, Michel Muniz, Mihailo Bjelic, Mike Brucken, Mirella Guglielmi, Panagiotis Alexiou (Peter Alexiou), Paul O'Leary, Scott Lilliston, Shivam Sharma, Shivam Sharma's Presentation, staking 4all, Tiago - Stakin, WebDev StakeWorks
 
 # Transcript
