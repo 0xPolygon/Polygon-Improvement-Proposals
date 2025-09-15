@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2023-09-21 16:04 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Anastassis Oikonomopoulos, Artiona Bogo, Daniel Gretzke, David Silverman, Fireflies.ai Notetaker Michel, George Serntedakis, Harry Rook, Jackson Lewis, Joonkyo Kim, Mateusz Rzeszowski, Matt Nathanson, Michel Muniz, Mirella Guglielmi, Nimit Bavishi, Nimit Bavishi's Presentation, Paul Gebheim, Paul Gebheim's Presentation, Paul O'Leary, Quentin de Beauchesne, Sandeep Sreenath, Sandeep Sreenath's Presentation, Scott Lilliston, staking 4all, Tiago - Stakin, Vincent Taglia, WebDev StakeWorks
