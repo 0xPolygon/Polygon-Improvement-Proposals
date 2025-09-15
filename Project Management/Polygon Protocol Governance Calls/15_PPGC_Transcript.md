@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2024-01-11 16:03 GMT) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Anastassis Oikonomopoulos, Andre Ferreira, atlas staking, Ben Rodriguez, Daniel Gretzke, David Silverman, Dimitri Nikolaros, Dogan Alpaslan, Fireflies.ai Notetaker Michel, George Serntedakis, Harry Rook, Jackson Lewis, Jerome de Tychey, Joonkyo Kim, Marcello Ardizzone, Mateusz Rzeszowski, Michel Muniz, Mike Brucken, Mirella Guglielmi, Panagiotis Alexiou (Peter Alexiou), Paul O'Leary, Pratik Patil, Pratik Patil's Presentation, Sandeep Sreenath, Scott Lilliston, Shivam Sharma, Sid Ramesh, Tiago - Stakin, Tobias Geiger
