@@ -1,4 +1,4 @@
-## Polygon Protocol Governance Call (2023-12-21 16:04 GMT) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Alex PFL, Anshal Shukla, Ben Rodriguez, Christopher Von Hessert, Daniel Gretzke, David Silverman, Dimitri Nikolaros, Fireflies.ai Notetaker Flavian, George Serntedakis, Harry Rook, Jackson Lewis, Jerome de Tychey, Joonkyo Kim, Justice Conder, Liz Steininger, Manav Darji, Manav Darji's Presentation, Marcello Ardizzone, Marcello Ardizzone's Presentation, Mateusz Rzeszowski, Matt Garnett, Mihailo Bjelic, Parvez Shaikh, Pulkit Mittal, Rahil's MeetGeek Notetaker, river 0x, Scott Lilliston, Shivam Sharma, Tiago - Stakin, Ulaş Erdoğan, Yuling Ma
