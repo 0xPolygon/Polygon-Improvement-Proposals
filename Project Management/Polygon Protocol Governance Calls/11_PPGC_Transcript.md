@@ -1,7 +1,6 @@
-## Polygon Protocol Governance Call (2023-11-02 16:04 GMT) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
-
-### Attendees
+#### Attendees
 Anton Gaev, Daniel Gretzke, David Silverman, Dimitri Nikolaros, Dogan Alpaslan, Fireflies.ai Notetaker Michel, Frisson, George Serntedakis, Harry Rook, Ivan Bjelajac, Jason W | Alchemy, Jerome de Tychey, Jesper Nielsen, Joonkyo Kim, Jordi Baylina, Justice Conder, Konstantin Ivanov, Krzysztof Urbański, Mateusz Rzeszowski, Parvez Shaikh, Paul Gebheim, Sam Martin, Sandeep Sreenath, Tiago - Stakin, Tobias Geiger, Vincent Taglia, WebDev StakeWorks, Zaki Manian
 
 # Transcript
