@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call (2024-05-30 16:05 GMT+1) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 ### Attendees
 Arpit Temani, atlas staking, Chase Mitchell, David Silverman, Dhairya Sethi, Dimitri Nikolaros, Fireflies.ai Notetaker Parth, Harry Rook, Jerome de Tychey, Joonkyo Kim, Jordan Hagan, Krzysztof Urbański, Manav Darji, Mark Holt, Matt, Milen Filatov, Mirella Guglielmi, Nimit Bavishi, Parvez Shaikh, Rahil's MeetGeek Notetaker, read.ai meeting notes, Sajal Agrawal, Sandeep Sreenath, Scott Lilliston, stream, Tiago - Stakin, Vasanti Rode, Viktor Bunin, WebDev StakeWorks
