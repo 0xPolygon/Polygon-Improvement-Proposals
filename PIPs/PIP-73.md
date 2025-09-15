@@ -4,7 +4,7 @@ Title: Rio Hardfork
 Author: Jerry Chen
 Description: Proposes Rio Hardfork 
 Discussion: https://forum.polygon.technology/t/pip-73-rio-hardfork/21268
-Status: Peer Review
+Status: Last Call
 Type: Core
 Date: 2025-08-29
 ---
