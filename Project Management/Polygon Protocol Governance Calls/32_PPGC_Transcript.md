@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call - 2025/05/08 15:55 BST - Transcript
+# Polygon Protocol Governance Call: Transcript
 
 #### Attendees
 Adam Dossa, Arash Mahboubi, Carlos Juarez, Dimitri Nikolaros, Harry Rook, Jerry Chen, Joonkyo Kim, Marcello Ardizzone, Mirella Guglielmi, Nikhil Chaturvedi, Norma - Supernormal, Pratik Sanjay Patil, Sajal Agrawal, Sandeep Sreenath, Sanket Saagar Karan, Stream, Tobias Geiger, Traversi Normandi, Vik Kalghatgi, Zaki Manian
