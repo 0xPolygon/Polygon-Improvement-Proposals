@@ -1,6 +1,6 @@
-## Polygon Protocol Governance Call (2023-11-30 16:03 GMT) - Transcript
+# Polygon Protocol Governance Call: Transcript
 
-## Attendees
+#### Attendees
 
 Christopher Von Hessert, Daniel Gretzke, Fireflies.ai Notetaker Flavian, Harry Rook, Ivan Bjelajac, Jackson Lewis, Jerome de Tychey, Joonkyo Kim, Krzysztof Urbański, Mariano Conti, Mateusz Rzeszowski, Michel Muniz, Mike Brucken, Mirella Guglielmi, Mudit Gupta, Nimit Bavishi, Panagiotis Alexiou (Peter Alexiou), Sandeep Sreenath, Scott Lilliston, Tiago - Stakin, Tobias Geiger, Viktor Bunin, Vincent Taglia, WebDev StakeWorks, Zaki Manian
 
