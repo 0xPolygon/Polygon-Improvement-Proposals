@@ -1,4 +1,6 @@
 # Polygon Protocol Governance Call - Transcript
+**This editable transcript was computer generated and might contain errors. People can also change the text after it was created.**
+
 00:00:00
  
 Harry Rook: All righty. Okay, start the recording quickly. Awesome. Okay, welcome everyone to PPGC number 35. Uh in terms of the agenda for today, there are well there's one main bucket which is the VB block upgrades. Um things are looking very much like they're ready to go. Uh we have a full specification now for the witness um based stateless verification. also the mechanics of the uh validator elected block producer um and how that will function within Heimdoll. Uh so those will be the main topics for today. Uh we've got Jerry on the call who's going to be doing a run through of of both of those revised pips. So those that remember there were originally two, one with the economic model, one with the spec for VB block, but you know, this has kind of been uh fleshed out a little bit more into into free pips now.
