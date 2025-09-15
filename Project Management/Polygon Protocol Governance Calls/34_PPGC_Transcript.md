@@ -1,4 +1,4 @@
-# Polygon Protocol Governance Call - Transcript
+# Polygon Protocol Governance Call: Transcript
 **This editable transcript was computer generated and might contain errors. People can also change the text after it was created.**
 
 00:00:00
