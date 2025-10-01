@@ -1,7 +1,7 @@
 ---
 PIP: 5
 Title: Change in SprintLength
-Description: Proposes a change in the SprintLenght
+Description: Proposes a change in the SprintLength
 Author: Sandeep Sreenath (@ssandeep), Paul O’Leary, Arpit Temani
 Discussion: https://forum.polygon.technology/t/pip-5-change-in-sprintlength/10874/4
 Status: Final
