@@ -6,7 +6,7 @@ Description: Proposes increasing block gas limit from 45M to 60M in the Polygon 
 Discussion: https://forum.polygon.technology/t/pip-71-increase-gas-limit-to-60m/21269
 status: Peer Review
 Type: Core
-Date: 2025-13-08
+Date: 2025-08-13
 ---
 
 ## Abstract
