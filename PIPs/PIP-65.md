@@ -10,8 +10,6 @@ Date: 2025-05-08
 ---
 
 
-_Disclaimer: This document outlines a proposed economic model to complement the Validator-Elected Block Producer (VEBloP) architecture. Specific parameters like the commission rate and implementation details of the distribution mechanism are subject to further analysis and refinement. It is important to note that this proposal specifically addresses the block production architecture and associated transaction fee distribution mechanism. The existing staking rewards earned by validators for their participation in proposing and signing checkpoints on Heimdall and L1 remain unaffected by these changes._
-
 ## Abstract
 
 This proposal defines an economic model designed to function alongside the Validator-Elected Block Producer (VEBloP) architecture proposed in PIP-64. Recognizing that VEBloP alters how transaction fees accrue, this PIP introduces a fee redistribution mechanism. The goal is to ensure continued economic viability for validators who perform crucial verification duties but no longer directly produce blocks, thereby maintaining the security and decentralization of the Polygon PoS network. The core proposal involves distributing network fees between the active block producer and the validator set.
@@ -48,7 +46,7 @@ The proposed economic model introduces a mechanism for collecting and redistribu
     - The `Pool_validators` is distributed among all participating validators. Each validator `v`'s share is determined by their "performance-weighted stake." This is calculated based on their actual stake (`Sv`) multiplied by their performance score (`Pv`).
     - Validators with higher performance scores and/or higher stakes will receive a proportionally larger share of the `Pool_validators`. Conversely, if a validator's performance (`Pv`) is low (e.g., due to missed participation or incorrect votes), their share of the pool will be correspondingly reduced. This effectively means that the portion of fees "unearned" by underperforming validators is automatically redistributed among the other validators based on their relative performance-weighted stakes.
 4. **Commission Rate:**
-    - **Initial Values:** The overall base commission rate (`C`) and the split factors (`E`, `P`) will initially be fixed percentages (e.g., C=20%, E=60%, P=40%).
+    - **Initial Values:** The overall base commission rate (`C`) and the split factors (`E`, `P`) will initially be fixed percentages (C=26%, E=100%, P=0%).
     - **Future Configurability:** Future upgrades may explore making this base commission rate adjustable via governance.
 5. **Vote Tracking:** The consensus layer (Heimdall) will need to track each validator's milestone voting activity accurately over the distribution period. This participation data must be reliably provided to the fee distribution smart contract.
 6. **Implementation:** Requires new smart contracts for fee handling and distribution, incorporating logic for stake-weighting and participation scaling. Clients (Bor, Heimdall) need updates for fee redirection and vote tracking/reporting.
@@ -58,7 +56,7 @@ The proposed economic model introduces a mechanism for collecting and redistribu
 **Symbol Definitions:**
 
 - `T`: Total Fees collected in the period (Transaction Fees + MEV Fees)
-- `C`: Block Producer commission rate (e.g., 0.2 for 20%)
+- `C`: Block Producer commission rate (0.26, or 26%)
 - `Sv`: Total stake (including delegation) held by validator `v`
 - `S`: Total stake in the network (sum of all validators' stakes)
 - `Pv`: Performance score of validator `v` (0 to 1, based on participation/correctness)
@@ -77,18 +75,18 @@ The proposed economic model introduces a mechanism for collecting and redistribu
     - Total Commission: `Rp_commission = [(CommissionPool * E) / Np] + [(CommissionPool * P) * (Bp / B_total)]`
 3. **Pool for Validators (`Pool_validators`):**
 `Pool_validators = T * (1 - C)`
-4. **Performance-Weighted Stake Calculations:**
+1. **Performance-Weighted Stake Calculations:**
     - For each validator `v`: `PerformanceWeightedStake_v = Sv * Pv`
     - `TotalPerformanceWeightedStake = sum(PerformanceWeightedStake_v for all validators v)`
-5. **Earned Reward for Validator `v` (`Rv`):** `Rv = (PerformanceWeightedStake_v / TotalPerformanceWeightedStake) * Pool_validators`
-6. **Total Reward for Producer `p` (`Rp_total`):**`Rp_total = Rp_commission + Rv_bp` (where `Rv_bp` is the earned validator reward for producer `p` if they also act as a validator, calculated in step 5 using their `S_bp` and `P_bp`)
+2. **Earned Reward for Validator `v` (`Rv`):** `Rv = (PerformanceWeightedStake_v / TotalPerformanceWeightedStake) * Pool_validators`
+3. **Total Reward for Producer `p` (`Rp_total`):**`Rp_total = Rp_commission + Rv_bp` (where `Rv_bp` is the earned validator reward for producer `p` if they also act as a validator, calculated in step 5 using their `S_bp` and `P_bp`)
 
 ### **Example**
 
 **Given Data:**
 
 - Total Fees Collected (T): 1,200 POL
-- Base Producer Commission Rate (C): 20% (0.2)
+- Base Producer Commission Rate (C): 26% (0.26)
 - Total Validator Stake (S_validators = S_v1 + S_v2 + S_v3): 6M POL
 - Validator 1 Stake: 1M POL
 - Validator 2 Stake: 2M POL
@@ -100,12 +98,12 @@ The proposed economic model introduces a mechanism for collecting and redistribu
 
 **Calculations:**
 
-1. **Total Commission Pool (`CommissionPool`):**`CommissionPool = T * C = 1200 * 0.2 = 240 POL`
+1. **Total Commission Pool (`CommissionPool`):**`CommissionPool = T * C = 1200 * 0.26 = 312 POL`
 2. **Block Producer (Validator 1)'s Commission Reward (`Rp_commission_v1`):**
 Since `Np=1` and `Bp/B_total=1`:
-`Rp_commission_v1 = [(240 * 0.6) / 1] + [(240 * 0.4) * 1] = 144 + 96 = 240 POL`
+`Rp_commission_v1 = [(312 * 0.6) / 1] + [(312 * 0.4) * 1] = 187.2 + 124.8 = 312 POL`
 (As expected, Validator 1 gets the full commission pool as the sole producer).
-3. **Pool for Validators (`Pool_validators`):**`Pool_validators = T * (1 - C) = 1200 * (1 - 0.2) = 1200 * 0.8 = 960 POL`
+3. **Pool for Validators (`Pool_validators`):**`Pool_validators = T * (1 - C) = 1200 * (1 - 0.26) = 1200 * 0.74 = 888 POL`
 4. **Performance-Weighted Stake Calculations:**
     - Validator 1 (BP): `PWS_v1 = S_v1 * P_v1 = 1,000,000 * 1.0 = 1,000,000`
     - Validator 2: `PWS_v2 = S_v2 * P_v2 = 2,000,000 * 0.9 = 1,800,000`
@@ -113,21 +111,21 @@ Since `Np=1` and `Bp/B_total=1`:
     - `TotalPerformanceWeightedStake = 1,000,000 + 1,800,000 + 3,000,000 = 5,800,000`
 5. **Earned Validator Reward (`Rv`) Calculations:**
     - Validator 1 (BP) (`Rv_v1`):
-    `Rv_v1 = (PWS_v1 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v1 = (1,000,000 / 5,800,000) * 960 = (10/58) * 960 = (5/29) * 960 = 165.517 POL`
+    `Rv_v1 = (PWS_v1 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v1 = (1,000,000 / 5,800,000) * 888 = (10/58) * 888 = (5/29) * 888 = 153.103 POL`
     - Validator 2 (`Rv_v2`):
-    `Rv_v2 = (PWS_v2 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v2 = (1,800,000 / 5,800,000) * 960 = (18/58) * 960 = (9/29) * 960 = 297.931 POL`
+    `Rv_v2 = (PWS_v2 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v2 = (1,800,000 / 5,800,000) * 888 = (18/58) * 888 = (9/29) * 888 = 275.586 POL`
     - Validator 3 (`Rv_v3`):
-    `Rv_v3 = (PWS_v3 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v3 = (3,000,000 / 5,800,000) * 960 = (30/58) * 960 = (15/29) * 960 = 496.552 POL`
+    `Rv_v3 = (PWS_v3 / TotalPerformanceWeightedStake) * Pool_validatorsRv_v3 = (3,000,000 / 5,800,000) * 888 = (30/58) * 888 = (15/29) * 888 = 465.103 POL`
 6. **Total Reward for Validator 1 (Block Producer):**`Rp_total_v1 = Rp_commission_v1 + Rv_v1 = 240 + 165.517 = 405.517 POL`
 
 **Distribution Table**
 
-| Role                         | Stake (POL) | Performance | Reward (POL) | Calculation                                                                                    |
-| ---------------------------- | ----------- | ----------- | ------------ | ---------------------------------------------------------------------------------------------- |
-| Validator 1 (Block Producer) | 1M          | 100%        | 405.52       | `(1200*0.2) + [(1M*1.0 / 5.8M_PWS) * (1200*0.8)]` (Commission + Validator Perf-Weighted Share) |
-| Validator 2                  | 2M          | 90%         | 297.93       | `[(2M*0.9 / 5.8M_PWS) * (1200*0.8)]` (Validator Perf-Weighted Share)                           |
-| Validator 3                  | 3M          | 100%        | 496.55       | `[(3M*1.0 / 5.8M_PWS) * (1200*0.8)]` (Validator Perf-Weighted Share)                           |
-| **Total**                    | **6M**      |             | **1200.00**  |                                                                                                |
+| Role                         | Stake (POL) | Performance | Reward (POL) | Calculation                                                                                      |
+| ---------------------------- | ----------- | ----------- | ------------ | ------------------------------------------------------------------------------------------------ |
+| Validator 1 (Block Producer) | 1M          | 100%        | 465.10       | `(1200*0.26) + [(1M*1.0 / 5.8M_PWS) * (1200*0.74)]` (Commission + Validator Perf-Weighted Share) |
+| Validator 2                  | 2M          | 90%         | 275.59       | `[(2M*0.9 / 5.8M_PWS) * (1200*0.74)]` (Validator Perf-Weighted Share)                            |
+| Validator 3                  | 3M          | 100%        | 459.31       | `[(3M*1.0 / 5.8M_PWS) * (1200*0.74)]` (Validator Perf-Weighted Share)                            |
+| **Total**                    | **6M**      |             | **1200.00**  |                                                                                                  |
 
 ## Rationale
 
