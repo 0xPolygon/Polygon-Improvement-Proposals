@@ -1,23 +1,20 @@
 ---
-
 PIP: 74
 Title: Canonical Inclusion of StateSync Transactions in Block Bodies
 Description: Make StateSync executions first-class transactions that impact all canonical block fields
 Author: Lucca Martins (@lucca30)
-Discussion: [https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies/](https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies/)
+Discussion: https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies/](https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies
 Status: Draft
 Type: Core
 Date: 2025-08-19
-----------------
+---
 
 ## Abstract
 
 Today, Polygon PoS executes StateSyncs during `CommitStates` at the **Finalize** step of Bor. These executions mutate the state DB (and thus the `stateRoot`) but are **not recorded in the block’s transaction list**, so they **do not affect `transactionsRoot`, `receiptsRoot`, or `logsBloom`**.
 This PIP proposes adding a **single, canonical StateSync transaction** appended to each block that had StateSync activity. The transaction **does not execute EVM code**, has **empty data**, **zero gas/fees**, and exists solely to **anchor in the block roots** the membership and outcomes of all StateSync events executed in that block. A **hard fork** is required because this changes post‑fork block hashing and Merkle roots.
 
-This proposal preserves **PIP‑12** eligibility, **PIP‑20** observability, and **PIP‑36** replay semantics. It changes only **representation**: StateSync results become part of the canonical transaction/receipt set, improving root‑based validation, snap‑sync trustlessness, storage/RPC simplicity, and operator visibility.
-
----
+This proposal preserves [PIP‑12](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-12.md) eligibility, [PIP‑20](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-20.md) observability, and [PIP‑36](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-36.md) replay semantics. It changes only **representation**: StateSync results become part of the canonical transaction/receipt set, improving root‑based validation, snap‑sync trustlessness, storage/RPC simplicity, and operator visibility.
 
 ## Motivation
 
@@ -25,8 +22,6 @@ This proposal preserves **PIP‑12** eligibility, **PIP‑20** observability, an
 * **Observability:** PIP‑20 success/failure signals become part of a **canonical receipt** and bloom.
 * **Consistency checks & snap‑sync:** Inclusion and outcomes are committed by roots, enabling trustless verification in snap‑sync.
 * **Simplicity:** Removes side‑channel storage and RPC flags; standardizes on a typed transaction/receipt.
-
----
 
 ## Specification
 
@@ -120,14 +115,6 @@ A post‑fork block is **invalid** if any of the following holds:
 
 > If execution of events stops early due to PIP‑36’s per‑event `txGasLimit`, the inner list **must equal the contiguous prefix actually executed** in this block; remaining events are executed (and later committed) in subsequent blocks.
 
-### 6) Hard fork activation
-
-* **Codename:** *TBD*
-* **Mainnet (Bor):** Block ≥ *TBD*
-* **Amoy (Bor):** Block ≥ *TBD*
-* **Scope:** applies only to **post‑fork** blocks.
-
----
 
 ## Backwards Compatibility
 
@@ -135,38 +122,24 @@ A post‑fork block is **invalid** if any of the following holds:
 * **Pre‑fork history:** Unchanged (no StateSyncTx).
 * **Tooling:** Clients/indexers must recognize `type=0x7F` and parse its receipt/logs; no txpool admission.
 
----
-
 ## Security Considerations
 
 * **DoS bounds:** Per‑event execution remains bounded by PIP‑36’s `txGasLimit`; the synthetic StateSyncTx itself uses `gas=0`.
 * **Determinism:** PIP‑12 windowing plus contiguous ascending `stateId` ordering ensure all nodes produce identical inner payloads.
 * **Economic neutrality:** No fees/tips/burn; `gasUsed` and base‑fee trajectory unaffected.
 
----
-
-## Implementation Considerations
+### Implementation Considerations
 
 * **Types:** Introduce `StateSyncTx` implementing the geth `TxData` interface with zero‑valued accessors and RLP encode/decode of `[]encStateSyncData`. Its `sigHash`, `setSignatureValues`, and similar EOA‑only paths MUST be unreachable.
 * **Hashing:** Use standard typed‑tx hashing (`prefixedRlpHash(type, inner)`); **do not** derive from block number/hash.
 * **RPC:** Expose the synthetic tx in `eth_getBlockBy*`; its receipt via `eth_getTransactionReceipt` (`gasUsed=0`, per‑event logs).
 * **Legacy import:** Pre‑fork blocks continue to apply StateSync effects out‑of‑list using Heimdall as the source of truth; any synthetic artifacts for history are **telemetry only**.
 
----
-
-## Post‑Fork Historical Consistency (Future Work)
-
-A follow‑up proposal (e.g., **PIP‑78**) will address explorer/light‑client needs without changing pre‑fork block hashes, e.g., backfilled indices or optional MPT commitments over legacy StateSync effects.
-
----
-
 ## References
 
 * **PIP‑12:** Time‑Based StateSync Confirmation Delay — [https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-12.md](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-12.md)
 * **PIP‑20:** State‑Sync Verbosity — [https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-20.md](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-20.md)
 * **PIP‑36:** Replay Failed State Syncs — [https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-36.md](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-36.md)
-
----
 
 ## Copyright
 
