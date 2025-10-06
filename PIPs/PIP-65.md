@@ -127,6 +127,23 @@ Since `Np=1` and `Bp/B_total=1`:
 | Validator 3                  | 3M          | 100%        | 459.31       | `[(3M*1.0 / 5.8M_PWS) * (1200*0.74)]` (Validator Perf-Weighted Share)                            |
 | **Total**                    | **6M**      |             | **1200.00**  |                                                                                                  |
 
+## Fee Distribution
+All transaction fees earned by block producing validators will be automatically routed to a third-party multisig controlled by Polygon Labs and Regen Financial. Block producing validators will be able to choose how they manage MEV fees. 
+
+The address for the transaction fee multisig is `0x7Ee41D8A25641000661B1EF5E6AE8A00400466B0`.
+
+Funds from the wallet will be redistributed to network validators on an approximately monthly basis, which commences as soon as the changes are implemented.
+
+Assuming the changes proposed here are implemented in the Rio Hardfork on October 8, 2025, payment timelines will occur as follows: 
+
+| DATE       | FEE PERIOD (Dates)     | FEE PERIOD (Epochs) | APPROX. PAYMENT DATE |
+| :--------- | :--------------------- | :------------------ | :------------------- |
+| 2025 Oct 8 | N/A                    | N/A                 | N/A                  |
+| 2025 Nov 8 | October 8 - November 8 | TBD                 | Nov 15 - Nov 22      |
+| 2025 Dec 8 | Nov 9 - Dec 8          | TBD                 | Dec 15 - Dec 22      |
+| 2026 Jan 8 | Dec 9 - Jan 8          | TBD                 | Jan 15 - Jan 22      |
+
+
 ## Rationale
 
 This fee redistribution model is proposed because:
