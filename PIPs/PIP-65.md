@@ -4,7 +4,7 @@ Title: Economic Model for VEBloP Architecture
 Author: Jerry Chen (fchen@polygon.technology)
 Description: Proposes an economic model and fee redistribution mechanism for the Validator-Elected Block Producer (VEBloP) architecture.
 Discussion: https://forum.polygon.technology/t/pip-65-economic-model-for-veblop-architecture/20933
-Status: Peer Review
+Status: Last Call
 Type: Core
 Date: 2025-05-08
 ---
