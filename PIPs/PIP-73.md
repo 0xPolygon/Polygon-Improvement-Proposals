@@ -4,7 +4,7 @@ Title: Rio Hardfork
 Author: Jerry Chen
 Description: Proposes Rio Hardfork 
 Discussion: https://forum.polygon.technology/t/pip-73-rio-hardfork/21268
-Status: Last Call
+Status: Final
 Type: Core
 Date: 2025-08-29
 ---
@@ -26,6 +26,7 @@ This PIP specifies the changes included in the Polygon PoS hard fork named Rio.
 * [PIP-64: Validator-Elected Block Producer](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md)
 * [PIP-65: Economic Model for VEBloP Architecture](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-65.md)
 * [PIP-72: Witness-Based Stateless Verification](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-72.md)
+* [PIP-65: Economic Model for VEBloP Architecture](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-65.md)
 
 ## Security Considerations 
 There are no security considerations. 
