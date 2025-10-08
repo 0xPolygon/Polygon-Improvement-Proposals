@@ -1,4 +1,4 @@
-# Meeting Agenda - October 8, 2025
+# Meeting Agenda - October 9, 2025
 
 ### Core: 
 * VEBloP Upgrade Retro
