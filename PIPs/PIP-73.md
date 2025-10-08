@@ -25,6 +25,7 @@ This PIP specifies the changes included in the Polygon PoS hard fork named Rio.
 ## Included PIPs
 * [PIP-64: Validator-Elected Block Producer](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-64.md)
 * [PIP-72: Witness-Based Stateless Verification](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-72.md)
+* [PIP-65: Economic Model for VEBloP Architecture](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-65.md)
 
 ## Security Considerations 
 There are no security considerations. 
