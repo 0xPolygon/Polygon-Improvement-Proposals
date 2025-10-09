@@ -3,7 +3,7 @@ PIP: 74
 Title: Canonical Inclusion of StateSync Transactions in Block Bodies
 Description: Make StateSync executions first-class transactions that impact all canonical block fields
 Author: Lucca Martins (@lucca30)
-Discussion: https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies/](https://forum.polygon.technology/t/pip-55-canonical-inclusion-of-state-sync-transactions-in-block-bodies
+Discussion: https://forum.polygon.technology/t/pip-74-canonical-inclusion-of-statesync-transactions-in-block-bodies/21331
 Status: Draft
 Type: Core
 Date: 2025-08-19
