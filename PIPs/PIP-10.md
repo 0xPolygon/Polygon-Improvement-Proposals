@@ -4,7 +4,7 @@ Title: Increase StateSync Confirmations
 Description: Proposal to increase the statesync confirmations in bor
 Author: Krishna Upadhyaya (@0xKrishna), Manav Darji (@manav2401), Pratik Patil (@pratikspatil024)
 Discussion: https://forum.polygon.technology/t/proposal-increase-statesync-confirmations/11779
-Status: Stagnent
+Status: Stagnant
 Type: Core
 Date: 2023-04-18
 ---

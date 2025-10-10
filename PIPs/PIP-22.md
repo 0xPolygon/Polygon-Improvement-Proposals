@@ -3,7 +3,7 @@ PIP: 22
 Title: EIP-3074-style Account Abstraction
 Description: Implementation of the `AUTH` and `AUTHCALL` EVM opcodes
 Author: Will Schwab (@wschwab)
-Discussion: https://forum.polygon.technology/t/pip-add-eip-3074-style-account-abstraction/12959/1
+Discussion: https://forum.polygon.technology/t/pip-22-add-eip-3074-style-account-abstraction/12959
 Status: Stagnant 
 Type: Core
 Date: 2023-09-22

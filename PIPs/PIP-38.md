@@ -6,7 +6,7 @@ Author: Vasanti Rode (@Vasanti01), Parvez Shaikh (@Maticparvez)
 Discussion: https://forum.polygon.technology/t/pip-38-phased-expansion-of-validator-slots-on-polygon-pos/14200
 Status: Draft
 Type: Contracts
-Date: 2024-5-5
+Date: 2024-05-05
 ---
 
 ## Abstract

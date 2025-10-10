@@ -4,7 +4,7 @@ Title: Pectra EIPs
 Author: Jerry Chen (@cffls), Harry Rook (@hrook1)
 Description: Proposes compatible Pectra EIPs
 Discussion: https://forum.polygon.technology/t/pip-61-pectra-eips/20783
-status: Final
+Status: Final
 Type: Core
 Date: 2025-03-19
 ---
