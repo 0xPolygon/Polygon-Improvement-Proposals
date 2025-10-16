@@ -4,7 +4,7 @@ Title: Validator-Elected Block Producer
 Author: Jerry Chen (fchen@polygon.technology)
 Description: Introduces Validator-Elected Block Producers (VEBloP) for Enhanced Throughput on the Polygon PoS network.
 Discussion: https://forum.polygon.technology/t/pip-64-validator-elected-block-producer/20918
-Status: Peer Review
+Status: Final
 Type: Core
 Date: 2025-04-29
 ---
