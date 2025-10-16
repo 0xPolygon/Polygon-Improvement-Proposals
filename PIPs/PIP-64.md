@@ -152,12 +152,6 @@ This scenario indicates an expected producer rotation.
 | Same-producer wait  | 8 seconds        | Maximum wait when expecting possible rotation (2x base timeout) |
 
 
-### Forced Transactions
-
-To guarantee censorship resistance, even with a single block producer who could potentially misbehave, a mechanism for forcing the inclusion of critical transactions is necessary. This ensures a deterministic pathway for both user and system-level transactions to be executed, upholding protocol guarantees.
-
-This proposal leverages Polygon chain's existing state sync mechanism in Bor. Users can submit transaction calldata and a target address to a designated L1 contract. This contract then triggers a state sync message directed to Bor. At the end of each sprint (currently every 16 blocks), the active block producer queries Heimdall for any pending state syncs. The producer must then include a transaction that calls a special L2 contract, which interprets the state sync data and executes the user's original transaction. Validators verify the correct inclusion and execution of these forced transactions as part of their standard consensus process. If a block producer fails to include a required forced transaction, validators will reject the block as invalid, which in turn triggers Heimdall to initiate a producer rotation.
-
 ### Stateless Verification
 
 To make block validation efficient and scalable, particularly as throughput increases, this proposal incorporates stateless verification. This eliminates the need for validators to maintain and constantly update the full chain state, significantly lowering their hardware requirements and encouraging broader participation.
