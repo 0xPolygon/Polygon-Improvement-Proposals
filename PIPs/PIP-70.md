@@ -35,8 +35,6 @@ Changing the `minDeposit` does not require a contract code upgrade; it is a conf
 updateMinAmounts uint256 _minDeposit, uint256 _minHeimdallFee
 ```
 
-Because the `StakeManager` is an upgradeable proxy contract, no redeployment is needed; we are simply updating a storage variable in the existing contract.  
-
 This change affects the requirements for initial self-staking of new validators as follows:
 
 - **StakeManager `minDeposit`**: The `StakeManager` contract on Ethereum maintains a public variable `minDeposit` denominated in POL. The `stakeFor(address user, uint256 amount, ...)` function enforces that any new validator’s stake amount must be ≥ `minDeposit`.  
