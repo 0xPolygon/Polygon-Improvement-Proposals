@@ -3,7 +3,7 @@ PIP: 75
 Title: Change consensus time to 1 second
 Description: Enable customizable block times and set consensus time to 1 second
 Author: Jerry Chen (fchen@polygon.technology)
-Discussion: 
+Discussion: https://forum.polygon.technology/t/change-consensus-time-to-1-second/21376
 Status: Draft
 Type: Core
 Date: 2025-11-03
@@ -24,6 +24,8 @@ This proposal addresses these limitations by building on the timing flexibility 
 
 These changes will allow block producers to fine-tune block intervals, reducing latency and improving user experience. This is achieved without requiring a hardfork for future block time adjustments and without altering block header or timestamp validation rules.
 
+
+## Specification
 
 ### Producer timing feature
 
