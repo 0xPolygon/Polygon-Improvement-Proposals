@@ -204,7 +204,7 @@ interface IStakingHub {
 
     /// @notice Schedules a slasher update.
     /// @dev Called by the service that wants to update their slasher.
-    /// @dev When a new slasher is scheduled, stakers subscribed to the service can unsubscibe from the service.
+    /// @dev When a new slasher is scheduled, stakers subscribed to the service can unsubscribe from the service.
     /// @dev Emits `SlasherUpdateInitiated` on successful scheduling.
     /// @param newSlasher The new slasher address.
     /// @return scheduledTime Timestamp after which the slasher can be updated.
