@@ -4,7 +4,7 @@ Title: Witness-Based Stateless Verification
 Author: Jerry Chen (fchen@polygon.technology)
 Description: Introduces witness-based stateless verification to enable lightweight nodes that validate blocks without maintaining full state
 Discussion: https://forum.polygon.technology/t/pip-72-witness-based-stateless-verification/21257/3
-Status: Peer Review
+Status: Final
 Type: Core
 Date: 2025-08-22
 ---
