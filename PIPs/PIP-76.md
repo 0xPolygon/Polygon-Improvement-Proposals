@@ -4,7 +4,7 @@ Title: Madhugiri Hardfork
 Description: Proposes Madhugiri Hardfork
 Author: Adam Dossa, Sandeep Sreenath
 Discussion: https://forum.polygon.technology/t/pip-76-madhugiri-hardfork/21377
-Status: Draft
+Status: Peer Review
 Type: Core
 Date: 2025-11-04
 ---
