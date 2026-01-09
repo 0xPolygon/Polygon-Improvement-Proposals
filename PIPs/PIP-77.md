@@ -17,13 +17,15 @@ Refreshing the Protocol Council membership ensures alignment with evolving commu
 
 Updates to Protocol Council membership at this time were motivated by [PIP-54](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-54.md) and [PIP-68](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-68.md), which jointly seek to improve the  efficiency and decentralization of Polygon PoS by granting more efficient control over contract upgradeability to the Protocol Council.  In preparing for this transition, all current members of the Council were asked to reconfirm their interest, alignment, and availability to serve on the Council. 
 
-As a result of this process, the updated membership list reflects the removal of Gauntlet, Mariano Conti & zackXBT.  The removal of each member is proposed with their full consent and in no way is a reflection on their skills, abilities, or the quality of their contributions. 
+As a result of this process, the updated membership list reflects the removal of Gauntlet, Mariano Conti & zackXBT.  The removal of each member is proposed with their full consent and in no way is a reflection on their skills, abilities, or the quality of their contributions. Pioneered security reviews for innovative technologies, including zero-knowledge proofs.
 
 The below individuals are furthermore proposed to fill the seats left vacant by the above members: 
 
 **Ryan Wegner**  
 
+
 **Vahe Karapetyan**  
+Vahe Karapteyan is a cybersecurity veteran with 15+ years of experience spanning low-level system security, offensive research, and blockchain internals, and is the Co-Founder & CTO of Hexens. He is a multi-time international CTF winner known for pioneering audits in zero-knowledge technologies and for building scalable vulnerability research tools for smart contracts.
 
 **Sameep Singhania**
 
@@ -38,7 +40,7 @@ This PIP proposes the reform of the signer composition of the Protocol Council, 
 | L2 Beat             | —                          | 0xaE8B85DcaBb12EB2dDb11dAd1ed968b7eD81B410   |
 | Mehdi Zerouali      | Sigma Prime                | 0x6d52F5F1A46304Ee51dd63D33cf1A7Be67EB9250   |
 | Vahe Karapetyan     | Hexens                     | 0x21887c89368bf918346c62460e0c339113801C28   |
-| Ryan Wegner         | Sentient Labs              |    |
+| Ryan Wegner         | Sentient Labs              | 0xda66df3920091ef4b54782b9463587c314dadd41   |
 | Sanmeep Singhania   | Quickswap & Kalqix         | 0xb771380f912E4b5F6beDdf81314C383c13F16ab5   |
 | Liz Steininger      | Least Authority            | 0x6860Ab2888f71AC09bEdEBB594b5B50299aC7889   |
 | Viktor Bunin        | Coinbase                   | 0xBb9D37Ae9e63a4517bE5CE1D98eB9D89938fb651   |
