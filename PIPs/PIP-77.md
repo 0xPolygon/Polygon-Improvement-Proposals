@@ -22,13 +22,13 @@ As a result of this process, the updated membership list reflects the removal of
 The below individuals are furthermore proposed to fill the seats left vacant by the above members: 
 
 **Ryan Wegner**  
-
+Ryan is currently the CISO at Sentient Labs, an AI startup with roots in the crytpo industry. Previously Ryan ran Cyber Security at Gauntlet and Scroll. Ryan has spent over 20 years in Cyber Security with a focus on cyber intelligence, security incident response and investigations.
 
 **Vahe Karapetyan**  
 Vahe Karapteyan is a cybersecurity veteran with 15+ years of experience spanning low-level system security, offensive research, and blockchain internals, and is the Co-Founder & CTO of Hexens. He is a multi-time international CTF winner known for pioneering audits in zero-knowledge technologies and for building scalable vulnerability research tools for smart contracts.
 
 **Sameep Singhania**
-
+Sameep Singhania is the co-founder of Quickswap, a decentralised exchange built on Polygon as well as KalqiX, a zk-native orderbook DEX for serious traders.
 
 ## Specification  
 This PIP proposes the reform of the signer composition of the Protocol Council, to be updated to the list below. The existing multisig contract specification, including signature policies and timelock delays, will remain unchanged. 
