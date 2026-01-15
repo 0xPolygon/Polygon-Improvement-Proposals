@@ -4,7 +4,7 @@ Title: Full ERC-20 Functionality for Validator Share Tokens
 Description: Enable full ERC-20 functionality to simplify creation of POL liquid staking tokens (LSTs) and expand the utility of staked POL.
 Author: Pete Kim
 Discussion: https://forum.polygon.technology/t/pip-69-full-erc-20-functionality-for-validator-share-tokens/21162
-Status: Peer Review
+Status: Executed
 Type: Contracts
 Date: 2025-07-21
 ---
