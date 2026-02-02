@@ -1,12 +1,12 @@
 ---
 PIP: 77  
-Title: Update Membership of the Protocol Council  
+Title: 2026 Polygon Protocol Council Membership Update
 Authors: Christopher von Hessert 
 Description: Proposal to update the membership of the Polygon Protocol Council  
 Discussion:  
 Status: 
 Type: Contracts  
-Date: 2026-01-01
+Date: 2026-02-01
 ---
 
 ## Abstract  
@@ -28,7 +28,7 @@ Ryan is currently the CISO at Sentient Labs, an AI startup with roots in the cry
 Vahe Karapteyan is a cybersecurity veteran with 15+ years of experience spanning low-level system security, offensive research, and blockchain internals, and is the Co-Founder & CTO of Hexens. He is a multi-time international CTF winner known for pioneering audits in zero-knowledge technologies and for building scalable vulnerability research tools for smart contracts.
 
 **Sameep Singhania**
-Sameep Singhania is the co-founder of Quickswap, a decentralised exchange built on Polygon as well as KalqiX, a zk-native orderbook DEX for serious traders.
+Sameep Singhania is a DeFi builder and product-driven founder working at the intersection of DEXs and zero-knowledge infrastructure. He is the co-founder of QuickSwap and the founder of KalqiX. Sameep is deeply focused on building high-performance, liquidity-efficient trading systems and rethinking how modern DEXs should be designed. His work centers on creating scalable, non-custodial exchanges that deliver CEX-level speed and execution while staying true to DeFi’s core principles of transparency and trust minimization.
 
 ## Specification  
 This PIP proposes the reform of the signer composition of the Protocol Council, to be updated to the list below. The existing multisig contract specification, including signature policies and timelock delays, will remain unchanged. 
