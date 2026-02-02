@@ -13,11 +13,11 @@ Date: 2026-02-01
 This proposal seeks to update the membership of the Protocol Council established by [PIP-29](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-29.md) to ensure continued operational efficiency and governance transparency. This proposal supersedes and should be read in conjunction with PIP-29.
 
 ## Motivation  
-Refreshing the Protocol Council membership ensures alignment with evolving community representation, and maintains operational transparency and efficiency. 
+Refreshing the Protocol Council membership ensures alignment with evolving community representation, and maintains operational transparency and efficiency.
 
-Updates to Protocol Council membership at this time were motivated by [PIP-54](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-54.md) and [PIP-68](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-68.md), which jointly seek to improve the  efficiency and decentralization of Polygon PoS by granting more efficient control over contract upgradeability to the Protocol Council.  In preparing for this transition, all current members of the Council were asked to reconfirm their interest, alignment, and availability to serve on the Council. 
+As part of our recertification process, all current members of the Council were asked to reconfirm their interest, alignment, and availability to serve on the Council.
 
-As a result of this process, the updated membership list reflects the removal of Gauntlet, Mariano Conti & zackXBT.  The removal of each member is proposed with their full consent and in no way is a reflection on their skills, abilities, or the quality of their contributions. Pioneered security reviews for innovative technologies, including zero-knowledge proofs.
+As a result of this process, the updated membership list reflects the removal of Gauntlet, Mariano Conti & zackXBT.  The removal of each member is proposed with their full consent and in no way is a reflection on their skills, abilities, or the quality of their contributions.
 
 The below individuals are furthermore proposed to fill the seats left vacant by the above members: 
 
