@@ -48,7 +48,7 @@ This PIP proposes the reform of the signer composition of the Protocol Council, 
 | Zaki Manian         | Sommelier Finance          | 0x096CA3674329bB66dD7CC14D1511dfB7728b9193   |
 | Multisig Signer     | Polygon Labs (Engineering) | 0x4e981bae8e3cd06ca911fffe5504b2653ac1c38a   |
 | Multisig Signer     | Polygon Labs (Security)    | 0x9d851f8b8751c5FbC09b9E74E6e68E9950949052   |
-| Pablo Sabbatella    | Independent                | 0xAB4045C93e4eFFa9b325F706C9a690Ed00d08958   |
+| Pablo Sabbatella    | Opsek                      | 0xAB4045C93e4eFFa9b325F706C9a690Ed00d08958   |
 | Jack Sanford        | Sherlock                   | 0x342EBaca3ACC54d6f5Ee78073FeC4af07f42B94e   |
 
 ## Backward Compatibility  
