@@ -4,7 +4,7 @@ Title: Increase Minstake to 100k POL
 Author: Harry Rook, Kaitlin Beegle  
 Description: Increase the minimum self-stake for new validators to 100k POL  
 Discussion: https://forum.polygon.technology/t/pip-70-increase-minstake-to-100k-pol/21176
-Status: Peer Review 
+Status: Final 
 Type: Contracts  
 Date: 2025-07-29  
 ---
