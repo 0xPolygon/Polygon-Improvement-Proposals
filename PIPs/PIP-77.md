@@ -1,7 +1,7 @@
 ---
 PIP: 77  
 Title: 2026 Polygon Protocol Council Membership Update
-Authors: Christopher von Hessert 
+Author: Christopher von Hessert
 Description: Proposal to update the membership of the Polygon Protocol Council  
 Discussion:  
 Status: 
