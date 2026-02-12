@@ -27,6 +27,7 @@ This PIP specifies the changes included in the Polygon chain hard fork named Lis
 
 - [PIP-79: Bounded-Range Validation for Configurable EIP-1559 Parameters](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-79.md)
 - [PIP-80: P256 Precompile Gas Cost Adjustment](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-80.md)
+- [PIP-82: Agentic Commerce Gas Program](https://github.com/0xPolygon/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-82.md)
 
 ## Included EIPs
 
