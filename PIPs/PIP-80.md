@@ -3,7 +3,7 @@ PIP: 80
 Title: P256 Precompile Gas Cost Adjustment
 Author: Adam Dossa, Krishang Shah
 Description: Increase gas cost of P256 precompile from 3450 to 6900
-Discussion:
+Discussion: https://forum.polygon.technology/t/pip-80-p256-precompile-gas-cost-adjustment/21712
 Status: Draft
 Type: Core
 Date: 2026-02-04
