@@ -1,9 +1,8 @@
 ---
 PIP: 78  
 Title: Adjustment of CHECKPOINT_REWARD for Emission Synchronization
-Authors: Parvez Shaikh
-Description: Proposal to update the membership of the Polygon Protocol Council  
-Discussion:
+Authors: Parvez Shaikh 
+Discussion: https://forum.polygon.technology/t/pip-78-adjustment-of-checkpoint-reward-for-emission-synchronization/21710
 Status: Draft
 Type: Contracts  
 Date: 2026-02-01
