@@ -3,7 +3,7 @@ PIP: 79
 Title: Bounded-Range Validation for Configurable EIP-1559 Parameters
 Description: Replace deterministic baseFee validation with boundary-based validation to enable producer-driven fee tuning
 Author: Lucca Martins (@lucca30)
-Discussion:
+Discussion: https://forum.polygon.technology/t/pip-79-bounded-range-validation-for-configurable-eip-1559-parameters/21711
 Status: Draft
 Type: Core
 Date: 2026-02-04
