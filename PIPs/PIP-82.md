@@ -29,12 +29,6 @@ The motivation for reducing gas fees on Agentic Commerce and x402 transactions i
 By effectively reducing gas/operating costs for x402 flows, Polygon can intentionally position itself as the preferred settlement layer for agent-to-agent commerce. This change would attract builders developing autonomous systems, increase on-chain transaction volume, and strengthen network effects around programmable payments. If we want Polygon to lead in the emerging agent economy, we must remove the structural barriers that prevent it from operating at machine speed and scale.
 Specification
 Change the recipient of EIP-1559 Burn by adding a new entry in burntContract with the hardfork block number and the new address in Bor’s Genesis file to 0x3ef57def668054dd750bd260526105c4eeef104f.
-## Backward Compatibility
-This change is not backward compatible and will require a hard fork of Bor to redirect burned MATIC. The old EIP-1559 contract will still function and will continue receiving non-recycled POL, per the PIP.
-## Copyright
-All copyrights and related rights in this work are waived under CC0 1.0 Universal.
-
-
 ### Current Public Facilitator Addresses (will be updated as new facilitators are added)
 Polygon Public Facilitators:
 - 0x29df60c005506AA325d7179F6e09eB4b4875dAde
@@ -61,3 +55,9 @@ Polygon Public Facilitators:
 - 0xF744e153Ef63f7EEe4a58e0F13761D16C2125EE3
 - 0x0a8B10FE8Bd3072351600Adef4796F3F7aF72Ab0
 - 0x971b4079A618F72Fa0F1792b07ed5923dfBF3500
+## Backward Compatibility
+This change is not backward compatible and will require a hard fork of Bor to redirect burned MATIC. The old EIP-1559 contract will still function and will continue receiving non-recycled POL, per the PIP.
+## Copyright
+All copyrights and related rights in this work are waived under CC0 1.0 Universal.
+
+
