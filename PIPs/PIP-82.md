@@ -1,6 +1,13 @@
-# PIP-82: Agentic Commerce Gas Program
-## Authors: David Silverman (@oneski22), John Egan, Akshat Gada, James Lawton
-## Type: Core
+---
+PIP: 82
+Title: Agentic Commerce Gas Program
+Author: David Silverman (@oneski22), John Egan, Akshat Gada, James Lawton
+Discussion: https://forum.polygon.technology/t/pip-80-p256-precompile-gas-cost-adjustment/21712](https://forum.polygon.technology/t/pip-82-agentic-commerce-gas-program/21721
+Status: Draft
+Type: Core
+Date: 2026-02-12
+---
+
 ## Table of Contents:
 - Abstract
 - Definitions 
