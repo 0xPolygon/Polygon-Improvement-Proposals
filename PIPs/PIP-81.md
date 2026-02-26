@@ -21,7 +21,7 @@ This PIP specifies the changes included in the Polygon chain hard fork named Lis
 
 - Activation block:
   - For Amoy - `33634700`
-  - For Mainnet - `TBD`
+  - For Mainnet - `(https://polygonscan.com/block/countdown/83756500)`
 
 ## Included PIPs
 
