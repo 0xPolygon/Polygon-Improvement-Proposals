@@ -23,6 +23,21 @@ By introducing a transparent and versioned repository, the community maintains a
 
 Consider any document not published by the PIP repository as a working paper. Additionally, consider published PIPs with a status of "draft", "review", or "last call" to be incomplete drafts, and note that their specification is likely to be subject to change.
 
+### PIPs Table 
+
+| Number             | Title             | Status | Type  | Date    |
+|:------------------|:------------------|:-------|:------|:--------|
+| 1 | PIP Purpose and Guidelines  | Continuous | Informational | 2023-02-22
+| 2 | Proposal to distribute and decentralize staking power across the Polygon chain  | Stagnant | Contracts | 2021-11-01
+| 3 | Auction Mechansim - A Mechanism to replace bad and under-performing validator  | Stagnant | Contracts | 2021-06-01
+| 4 | Validator Performance Management Proposal  | Final | Contracts | 2022-08-22
+| 5 | Change in SprintLength  | Final | Core | 2023-01-10
+| 6 | Change in BaseFeeChangeDenominator  | Final | Core | 2023-01-10
+| 7 | Delhi Hardfork  | Final | Core | 2023-01-12
+| 8 | PIP Classification, Workflow and Implementation  | Continuous | Informational | 2023-02-21
+| 9 | Performance Benchmark Adjustment  | Final | Contracts | 2023-02-23
+| 10 | Increase StateSync Confirmations  | Stagnant | Core | 2023-04-18
+
 ## Project Management
 
 ### Purpose
