@@ -1,5 +1,5 @@
 ---
-PIP: 83
+PIP: 84
 Title: Giugliano Hardfork
 Author: Lucca Martins (@lucca30)
 Description: Proposes Giugliano Hardfork
