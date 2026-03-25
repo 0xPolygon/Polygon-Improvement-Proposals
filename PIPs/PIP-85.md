@@ -3,7 +3,7 @@ PIP: 85
 Title: VEBloP PIP-65 Priority Fee Formula Adjustment
 Author: David Silverman (@oneski), Sandeep Nailwal, Nicholas Truslow, Parvez Shaikh, Vasanti Rode
 Description: Proposes Update to the Priority Fee Formula
-Discussion: 
+Discussion: https://forum.polygon.technology/t/pip-85-veblop-pip-65-priority-fee-formula-adjustment/21829
 Status: Draft
 Type: Core
 Date: 2026-03-25
