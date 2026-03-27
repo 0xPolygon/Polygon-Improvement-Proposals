@@ -4,7 +4,7 @@ Title: Lisovo Hardfork
 Description: Proposes Lisovo Hardfork
 Author: Adam Dossa, Lucca Martins, Krishang Shah
 Discussion: [https://forum.polygon.technology/t/pip-76-madhugiri-hardfork/21377](https://forum.polygon.technology/t/pip-81-lisovo-hardfork/21713)
-Status: Draft
+Status: Final
 Type: Core
 Date: 2026-02-04
 ---
@@ -21,7 +21,7 @@ This PIP specifies the changes included in the Polygon chain hard fork named Lis
 
 - Activation block:
   - For Amoy - `33634700`
-  - For Mainnet - `(https://polygonscan.com/block/countdown/83756500)`
+  - For Mainnet - `83756500`
 
 ## Included PIPs
 
