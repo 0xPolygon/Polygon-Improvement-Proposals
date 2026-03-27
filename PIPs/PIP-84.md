@@ -20,7 +20,7 @@ This PIP specifies the changes included in the Polygon PoS hard fork named Giugl
 
 - Activation block:
   * For Amoy - 35573500
-  * For Mainnet - TBD
+  * For Mainnet - 85245000
 
 ## Included PIPs
 * [PIP-66: Allow Early Block Announcements](https://github.com/maticnetwork/Polygon-Improvement-Proposals/blob/main/PIPs/PIP-66.md)
