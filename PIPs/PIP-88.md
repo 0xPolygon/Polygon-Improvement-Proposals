@@ -1,12 +1,14 @@
 ---
 PIP: 88
 Title: Cold-Storage and Precompile Gas Repricing
-Author: Krishang Shah (@kamuikatsurgi), Adam Dossa (@adamdossa)
-Description: Reprices cold SLOAD/SSTORE and a set of cryptographic precompiles (BN254, BLS12-381, blake2F) for Polygon PoS, activated by the Chicago hard fork.
-
+Author: 'Krishang Shah (@kamuikatsurgi), Adam Dossa (@adamdossa)'
+Description: >-
+  Reprices cold SLOAD/SSTORE and a set of cryptographic precompiles (BN254,
+  BLS12-381, blake2F) for Polygon PoS, activated by the Chicago hard fork.
+Discussion: TBA
 Status: Final
 Type: Core
-Date: 2026-05-21
+Date: 2026-05-21T00:00:00.000Z
 ---
 
 ## Abstract

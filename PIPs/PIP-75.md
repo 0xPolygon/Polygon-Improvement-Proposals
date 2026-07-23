@@ -3,10 +3,10 @@ PIP: 75
 Title: Change consensus time to 1 second
 Description: Enable customizable block times and set consensus time to 1 second
 Author: Jerry Chen (fchen@polygon.technology)
-Discussion: https://forum.polygon.technology/t/change-consensus-time-to-1-second/21376
-Status: Draft
+Discussion: 'https://forum.polygon.technology/t/change-consensus-time-to-1-second/21376'
+Status: Final
 Type: Core
-Date: 2025-11-03
+Date: 2025-11-03T00:00:00.000Z
 ---
 
 ## Abstract

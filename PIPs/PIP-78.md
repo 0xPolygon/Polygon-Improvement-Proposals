@@ -1,11 +1,12 @@
 ---
-PIP: 78  
+PIP: 78
 Title: Adjustment of CHECKPOINT_REWARD for Emission Synchronization
-Authors: Parvez Shaikh 
-Discussion: https://forum.polygon.technology/t/pip-78-adjustment-of-checkpoint-reward-for-emission-synchronization/21710
-Status: Draft
-Type: Contracts  
-Date: 2026-02-01
+Authors: Parvez Shaikh
+Discussion: >-
+  https://forum.polygon.technology/t/pip-78-adjustment-of-checkpoint-reward-for-emission-synchronization/21710
+Status: Final
+Type: Contracts
+Date: 2026-02-01T00:00:00.000Z
 ---
 
 ## Abstract

@@ -1,11 +1,13 @@
 ---
 PIP: 83
 Title: Embed EIP-1559 Gas Parameters in Block Header Extra Field
-Description: Encode gas target and base fee change denominator in block header extra data for post-Giugliano blocks
+Description: >-
+  Encode gas target and base fee change denominator in block header extra data
+  for post-Giugliano blocks
 Author: Pratik Patil (@pratikspatil024)
-Status: Draft
+Status: Final
 Type: Core
-Date: 2026-03-17
+Date: 2026-03-17T00:00:00.000Z
 ---
 
 ## Abstract
