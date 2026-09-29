@@ -36,7 +36,7 @@ The StakeManager's checkpoint rewards already deliver POL to signing validators 
 | WithdrawManager proxy (Ethereum) | `0x2A88696e0fFA76bAA1338F2C74497cC013495922` |
 | DepositManager proxy (Ethereum) | `0x401F6c983eA34274ec46f84D70b31C151321188b` |
 | Cut-off block (inclusive) | **93,430,949** (2026-09-08 07:10:57 UTC) |
-| Distribution window | **2026-10-01 00:00 UTC to 2026-12-01 00:00 UTC** (61 days) |
+| Distribution window | **2026-10-01 03:00 UTC to 2026-12-01 03:00 UTC** (61 days) |
 | `X` (amount to distribute) | **27,334,955.845734223717311595 POL** (`27334955845734223717311595` wei) |
 | `R_base` (current `CHECKPOINT_REWARD`, PIP-86) | 25,212.785388127853881278 POL (`25212785388127853881278` wei) |
 | `R_window` (elevated `CHECKPOINT_REWARD`) | **64,500 POL** (`64500000000000000000000` wei) |
