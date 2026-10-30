@@ -17,11 +17,11 @@ Anyone is welcome to add an item to the agenda following the guidelines:
 
 ### Who Can Attend
 
-Protocol developers, client developers, network Validators, core Polygon Labs’ researchers, and community members (e.g., dApp and ecosystem community members) are invited to attend the calls. Sometimes a non-core developer with particular expertise on a topic is invited to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance, please reach out to [Harry Rook](mailto:hrook@polygon.technology).
+Protocol developers, client developers, network Validators, core Polygon Labs’ researchers, and community members (e.g., dApp and ecosystem community members) are invited to attend the calls. Sometimes a non-core developer with particular expertise on a topic is invited to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance, please reach out to [Parvez Shaikh](mailto:parvez.shaikh@polygon.technology).
 
 ### Who Manages the Calls
 
-The calls are facilitated by Harry Rook. The meetings are recorded and transcribed. The transcripts and video will be uploaded after the meeting in this repository.
+The calls are facilitated by Parvez Shaikh. The meetings are recorded and transcribed. The transcripts and video will be uploaded after the meeting in this repository.
 
 The calls are independent of any organization. However, participants in the meetings may also be Polygon Labs' employees.
 
