@@ -133,8 +133,8 @@ Once the PIP has satisfied the above requirements, a PIP editor will upload the 
 
 The current PIP editors are comprised of:
 
-- [Kaitlin Beegle](https://github.com/kaitlin-beegle)
-- [Harry Rook](https://github.com/hrook1/)
+- [Parvez Shaikh](https://github.com/MaticParvez)
+
 
 ## References
 
