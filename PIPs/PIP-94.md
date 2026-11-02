@@ -1,7 +1,7 @@
 ---
 PIP: 94
 Title: Polygon Security Council Consolidation
-Author: Christopher von Hessert
+Authors: Christopher von Hessert
 Description: Consolidates the Protocol Council, PoS, and AggLayer multisigs into a single Security Council with a Polygon Labs proposer route and a 7-day timelock
 Discussion: TBD
 Status: Draft
@@ -150,7 +150,7 @@ Seven rather than five because a seven-day window always contains a full working
 
 ### Why organization-level disclosure
 
-The purpose of the disclosure requirement is to let observers verify that the Council is genuinely diverse and not captured. A published list of nine independent organizations establishes that. Publishing which individual at Hexens or Sigma Prime holds the key adds nothing to that verification and adds material personal risk for the individual.
+The purpose of the disclosure requirement is to let observers verify that the Council is genuinely diverse and not captured. A published list of ten independent organizations establishes that. Publishing which individual at Hexens or Sigma Prime holds the key adds nothing to that verification and adds material personal risk for the individual.
 
 Starknet's Security Council operates on this basis, publishing member organizations without individual names. The relevant failure case is publishing nothing at all, which is not what is proposed here.
 
