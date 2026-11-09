@@ -4,7 +4,7 @@ Title: Reform Key Polygon PoS Multisigs to Integrate Protocol Council Members
 Authors: Harry Rook, Kaitlin Beegle
 Description: Protocol Council members to replace existing signers and signature policies
 Discussion: https://forum.polygon.technology/t/pip-68-reform-key-polygon-pos-multisigs-to-integrate-protocol-council-members/21008
-Status: Peer Review
+Status: Final
 Type: Contracts
 Date: 2025-06-03
 ---
