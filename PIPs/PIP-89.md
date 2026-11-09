@@ -1,6 +1,6 @@
 | PIP            | Title           | Description                                                                                                                                                        | Author                           | Discussion | Status | Type | Date       |
 |----------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|------------|--------|------|------------|
-| To be assigned | Zurich Hardfork | Heimdall v0.9.0: the height-gated Zurich consensus changes (deterministic state-sync, VEBLOP and checkpoint/milestone/proposal correctness) plus the non-gated transport, failover, bridge and dependency upgrades shipped alongside | Marcello Ardizzone (@marcello33) | TBD        | Draft  | Core | 2026-06-15 |
+| To be assigned | Zurich Hardfork | Heimdall v0.9.0: the height-gated Zurich consensus changes (deterministic state-sync, VEBLOP and checkpoint/milestone/proposal correctness) plus the non-gated transport, failover, bridge and dependency upgrades shipped alongside | Marcello Ardizzone (@marcello33) | TBD        | Final  | Core | 2026-06-15 |
 
 ## Abstract
 
