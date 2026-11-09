@@ -1,6 +1,6 @@
 | PIP | Title           | Description                                                                                                                                                                                                                  | Author                                                            | Discussion | Status | Type | Date       |
 |-----|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|------------|--------|------|------------|
-| 90  | Ithaca Hardfork | Heimdall v0.10.0: the height-gated Ithaca consensus change that lets a stalled block producer be rotated out even while a milestone is pending, plus the non-gated mempool, logging and dependency changes shipped alongside | Marcello Ardizzone (@marcello33), Pratik Patil (@pratikspatil024) | TBD        | Draft  | Core | 2026-07-13 |
+| 90  | Ithaca Hardfork | Heimdall v0.10.0: the height-gated Ithaca consensus change that lets a stalled block producer be rotated out even while a milestone is pending, plus the non-gated mempool, logging and dependency changes shipped alongside | Marcello Ardizzone (@marcello33), Pratik Patil (@pratikspatil024) | TBD        | Final  | Core | 2026-07-13 |
 
 ## Abstract
 
