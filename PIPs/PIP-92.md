@@ -123,7 +123,7 @@ where `reward_c` is the `reward` field of the checkpoint's `NewHeaderBlock` even
 
 Round 1 ends at the moment round 2 starts, so its result is not known when round 2 is sized. Round 2 is therefore sized to also pay the surplus projected for round 1, and round 1 is settled through the combined reconciliation in section 8.5 instead of on its own. The round-1 figures are still published in December 2026, for information.
 
-At `R_window` the additional reward payout is about 442,000 POL per day as observed (section 8.4), so each day the interval runs longer or shorter than 61 days moves `E_actual` by roughly that amount; a late transaction ending the round is corrected by executing it, not by waiting for the calendar. The reconciliation, the two `RewardUpdate` transaction hashes, and the checkpoint data behind it are published in the discussion thread and the veblop-fee-split repository.
+At `R_window` the additional reward payout is about 440,000 POL per day as observed (section 8.4), so each day the interval runs longer or shorter than 61 days moves `E_actual` by roughly that amount; a late transaction ending the round is corrected by executing it, not by waiting for the calendar. The reconciliation, the two `RewardUpdate` transaction hashes, and the checkpoint data behind it are published in the discussion thread and the veblop-fee-split repository.
 
 ### 7. Later accruals
 
@@ -140,7 +140,7 @@ Addresses, `R_base` and `I` are as in section 1.
 | Cut-off block (inclusive) | **96,964,517** (2026-11-08 15:37:12 UTC) |
 | Distribution window | **2026-12-01 03:00 UTC to 2027-02-01 03:00 UTC** (62 days) |
 | `X2` (amount to transfer) | **6,485,618.860774875112560337 POL** (`6485618860774875112560337` wei) |
-| `S1` (projected round-1 surplus, already in the StakeManager) | about 373,112 POL |
+| `S1` (projected round-1 surplus, already in the StakeManager) | about 385,033 POL |
 | `R_window2` (elevated `CHECKPOINT_REWARD`) | **35,000 POL** (`35000000000000000000000` wei) |
 
 #### 8.2 Amount to distribute
@@ -162,25 +162,27 @@ Both runs were checked against the chain, using the fee-collection account's bal
 
 #### 8.4 Elevated reward
 
-`R_window2` is sized from round 1's own payout instead of the section-4 calibration. From the first checkpoint after the 1 October increase to the checkpoint submitted at 2026-11-17 13:15 UTC (checkpoints 112,919 to 117,129 in Ethereum blocks 26,094,691 to 26,434,999, 47.42 days, with the first checkpoint's reward excluded from the rate as in section 4), checkpoints paid 725,636 POL per day at 64,500 POL. That is 11.2502 POL per day for each POL of `CHECKPOINT_REWARD`, or 283,648 POL per day at `R_base`, 0.4% below the section-4 calibration.
+`R_window2` is sized from round 1's own payout instead of the section-4 calibration. The rate is measured only from the StakeManager upgrade at Ethereum block 26,349,998 (2026-11-05 17:02 UTC), which changed the reward paid per checkpoint, so earlier checkpoints are not used. From the last checkpoint before that block (checkpoint 116,085, Ethereum block 26,349,915) to the checkpoint submitted at 2026-11-23 08:42 UTC (checkpoint 117,705, Ethereum block 26,476,710), 17.66 days with the first checkpoint's reward excluded as in section 4, checkpoints paid 723,176 POL per day at 64,500 POL. That is 11.2120 POL per day for each POL of `CHECKPOINT_REWARD`, or 282,687 POL per day at `R_base`.
 
-By that checkpoint round 1 had paid `E_actual` = 20,962,896 POL (section 6). At 441,988 POL per day for the remaining 13.57 days to 2026-12-01 03:00 UTC, it is expected to end at about 26,961,843 POL, leaving `S1` ≈ 373,112 POL (1.36% of `X`). Round 2 is sized to pay `X2 + S1`:
+By that checkpoint round 1 had paid `E_actual` = 23,530,802 POL (section 6). At 440,490 POL per day for the remaining 7.76 days to 2026-12-01 03:00 UTC, it is expected to end at about 26,949,923 POL, leaving `S1` ≈ 385,033 POL (1.41% of `X`). Round 2 is sized to pay `X2 + S1`:
 
 ```
-target                 = X2 + S1                           = 6,858,731 POL
-extra needed per day   = target / 62                       = 110,624.7 POL
-break-even R_window2   = 25,212.79 + 110,624.7 / 11.2502   = 35,045.94 POL
+target                 = X2 + S1                           = 6,870,652 POL
+extra needed per day   = target / 62                       = 110,817.0 POL
+break-even R_window2   = 25,212.79 + 110,817.0 / 11.2120   = 35,096.54 POL
 ```
 
-`R_window2` is set to **35,000 POL**, rounded down from the break-even value so that the expected outcome is a small surplus of about 32,000 POL (0.47% of the target) rather than a shortfall.
+`R_window2` is set to **35,000 POL**, rounded down from the break-even value so that the expected outcome is a surplus of about 67,000 POL (0.98% of the target) rather than a shortfall. Since the upgrade the measured rate has varied by about ±0.4% from week to week, which moves round 2's payout by about ±27,000 POL.
 
-| | `CHECKPOINT_REWARD` (POL) | Expected reward payout per day (POL) | Annualised gross reward rate on 3,808.4M staked |
+| | `CHECKPOINT_REWARD` (POL) | Expected reward payout per day (POL) | Annualised gross reward rate on 3,812.3M staked |
 |---|---|---|---|
-| Baseline (PIP-86) | 25,212.79 | 283,648 | 2.72% |
-| Round 2 | 35,000.00 | 393,756 | 3.77% |
-| Uplift | +9,787.21 (1.39×) | +110,108 (6.83M over 62 days) | +1.06 pp |
+| Baseline (PIP-86) | 25,212.79 | 282,687 | 2.71% |
+| Round 2 | 35,000.00 | 392,421 | 3.76% |
+| Uplift | +9,787.21 (1.39×) | +109,735 (6.80M over 62 days) | +1.05 pp |
 
-The stake figure is the total recorded by the StakeManager on 17 November 2026, up from 3,451.7M in section 4, so the same `CHECKPOINT_REWARD` now gives a lower rate than it did then. As in section 4, these are aggregate gross rates, the additional rewards follow the normal staking-reward distribution, and no new POL is issued. `R_window2` is fixed at this value, and any difference from the expected payout is handled by the combined reconciliation.
+The stake figure is the total recorded by the StakeManager at Ethereum block 26,476,809 (2026-11-23), up from 3,451.7M in section 4, so the same `CHECKPOINT_REWARD` now gives a lower rate than it did then. As in section 4, these are aggregate gross rates, the additional rewards follow the normal staking-reward distribution, and no new POL is issued. `R_window2` is fixed at this value, and any difference from the expected payout is handled by the combined reconciliation.
+
+`R_base` is restored unchanged on 1 February 2027. It is PIP-86's value, which pays PIP-86's emission target when every checkpoint is fully signed at 1.5-second blocks (11.25 POL per day for each POL of `CHECKPOINT_REWARD`, 57,600 / 5,120). The observed baseline above is slightly lower because some stake does not sign every checkpoint.
 
 #### 8.5 Timeline and combined reconciliation
 
@@ -228,7 +230,7 @@ A negative balance is a shortfall and is reimbursed as in section 6, from the st
 
 - **Authorization.** All `updateCheckpointReward` calls are `onlyGovernance` and follow the PIP-78 and PIP-86 process. No new privileged surface.
 - **Misconfiguration.** A wrong magnitude in `R_window` would misprice the whole window. Values are given in POL and wei, post-state is asserted, and the change is reversible by a further governance call.
-- **Late transactions.** A delayed 1 December 2026 transaction keeps 64,500 POL in force, paying about 332,000 POL per day more than round 2 would; a delayed 1 February 2027 restore pays about 110,000 POL per day. Both are scheduled in advance, and any excess is settled by the combined reconciliation (section 8.5).
+- **Late transactions.** A delayed 1 December 2026 transaction keeps 64,500 POL in force, paying about 331,000 POL per day more than round 2 would; a delayed 1 February 2027 restore pays about 110,000 POL per day. Both are scheduled in advance, and any excess is settled by the combined reconciliation (section 8.5).
 - **Bridge and custody.** `X` leaves Polygon PoS by a Plasma burn and exit, and the exit pays POL to the Ethereum address matching the burning account, a Safe with the same signers and threshold on both networks. Holding time before the StakeManager transfer is minimised, and all hashes are published.
 - **Behavioural effects.** A 2.6× reward rate in round 1 and a 1.39× rate in round 2 may attract short-term stake. This introduces no consensus or contract risk; each window is disclosed in advance and should be communicated as a one-off catch-up, not a new base rate, including the step down from round 1's rate to round 2's on 1 December 2026.
 
