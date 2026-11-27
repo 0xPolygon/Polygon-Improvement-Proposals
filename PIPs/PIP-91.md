@@ -3,7 +3,7 @@ PIP: 91
 Title: Permissioned Validator Entry via ValidatorPass
 Authors: Adam Dossa, Agustin Aguilar
 Description: Gates new validator admission behind single-use, expiring, key-bound passes issued under authority delegated by the Protocol Council
-Discussion: 
+Discussion: https://forum.polygon.technology/t/permissioned-validator-entry-via-validatorpass/22108
 Status: Peer Review
 Type: Core
 Date: 2026-08-18
